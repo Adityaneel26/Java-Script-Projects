@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <!-- JS code -->
+
   <script>
     const apikey = "b7b13505eed027e2807262bb34a2bcf3";
     const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
@@ -72,12 +72,10 @@
       }
     }
 
-    // Button click
     searchBtn.addEventListener("click", () => {
       checkWeather(searchBox.value);
     });
 
-    // Enter key
     searchBox.addEventListener("keyup", (e) => {
       if (e.key === "Enter") {
         checkWeather(searchBox.value);
@@ -86,4 +84,5 @@
   </script>
 </body>
 </html>
+
 
