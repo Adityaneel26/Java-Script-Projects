@@ -48,7 +48,7 @@
       const response = await fetch(apiurl + city + `&appid=${apikey}`);
 
       if (response.status === 404) {
-        alert("City not found 😢");
+        alert("City not found");
         return;
       }
 
@@ -86,3 +86,4 @@
   </script>
 </body>
 </html>
+
