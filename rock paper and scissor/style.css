@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    text-align: center;
+}
+.choices,choice{
+    display: flex;
+    justify-content: center;
+    margin: 5vmin;
+}
+.choice,img{
+    
+    margin: 3vmin;
+}
+
+.score-board,.score{
+    display: flex;
+    justify-content: center;
+    margin: 5vmin;
+}
+.score,p{
+    margin: 1vmin;
+    font-size: 4vmin;
+}
+.tie{
+    background-color: rgba(43, 192, 255, 0.47);
+    color: white;
+}
+.win
+{
+    background-color: green;
+    color: white;
+    font-size: 5vmin;
+    height: 5%;
+
+}
+.lost{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-size: 5vmin;
+    height: 5%;
+
+}
